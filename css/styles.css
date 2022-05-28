@@ -471,7 +471,9 @@ footer {
 }
 .project-image {
     float: left;
-    background-color: #7e8890;
+    padding-right: 40px;
+    border-right:solid 2px#374054;
+    background-color: #ffffff;
 }
 .project-info {
     position: absolute;
@@ -490,6 +492,7 @@ footer {
     color: #74808a;
     margin: 0 0 15px 150px;
     font-size: 0.9em;
+    text-align: justify;
 }
 .no-image .project-info {
     position: relative;
