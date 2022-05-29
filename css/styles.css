@@ -471,7 +471,9 @@ footer {
 }
 .project-image {
     float: left;
-    padding-right: 40px;
+    padding-right: 25px;
+    padding-left:25px;
+    
     border-right:solid 2px#374054;
     background-color: #ffffff;
 }
@@ -492,6 +494,8 @@ footer {
     color: #74808a;
     margin: 0 0 15px 150px;
     font-size: 0.9em;
+    padding-right: 10px;
+    padding-left: 10px;
     text-align: justify;
 }
 .no-image .project-info {
