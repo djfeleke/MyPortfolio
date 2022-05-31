@@ -147,6 +147,7 @@ footer {
 .copyright p {
     margin: 0;
     color: #587996;
+    font-family:cursive;
 }
 .top {
     text-align: center;
@@ -318,6 +319,7 @@ footer {
 #about p {
     color: #74808a;
     margin: 0;
+    text-align: justify;
 }
 #experience {
     padding: 50px 15px;
