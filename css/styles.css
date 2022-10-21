@@ -11,7 +11,7 @@
     Gulp and send to the /css folder which is then loaded on the page.
 */
 body {
-    font-family: serif, sans-serif, calibri, "Lato";
+    font-family: calibri, serif, sans-serif, "Lato";
     font-size: 18px;
     color: black;
 }
@@ -29,18 +29,18 @@ body.active {
 .no-js #experience-timeline > div h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: #000000;
     display: inline-block;
     margin: 0;
 }
 .no-js #experience-timeline > div h4 {
     font-size: 1.2em;
     font-weight: 300;
-    color: #7e8890;
+    color: #000000;
     margin: 0 0 15px 0;
 }
 .no-js #experience-timeline > div p {
-    color: #74808a;
+    color: #000000;
     font-size: 0.9em;
     margin: 0;
 }
@@ -314,10 +314,10 @@ footer {
     border-bottom: 1px solid #dcd9d9;
 }
 #about h2 {
-    color: #374054;
+    color: #000000;
 }
 #about p {
-    color: #74808a;
+    color: #000000;
     margin: 0;
     text-align: justify;
 }
@@ -327,7 +327,7 @@ footer {
     border-bottom: 1px solid #dcd9d9;
 }
 #experience h2 {
-    color: #374054;
+    color: #000000;
 }
 #experience-timeline {
     margin: 30px auto 0 auto;
@@ -367,18 +367,18 @@ footer {
 .vtimeline-content h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: #000000;
     display: inline-block;
     margin: 0;
 }
 .vtimeline-content h4 {
     font-size: 1.2em;
     font-weight: 300;
-    color: #7e8890;
+    color: #000000;
     margin: 0 0 15px 0;
 }
 .vtimeline-content p {
-    color: #74808a;
+    color: #000000;
     font-size: 0.9em;
     margin: 0;
 }
@@ -413,48 +413,6 @@ footer {
     font-weight: 300;
     color: #374054;
 }
-#education {
-    padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid #dcd9d9;
-    text-align: center;
-}
-#education h2 {
-    color: #374054;
-    margin-bottom: 50px;
-}
-.education-block {
-    max-width: 1000px; /* Originally it was 700 but I changed it to 900*/
-    margin: 0 auto 30px auto;
-    padding: 15px;
-    border: 1px solid #dcd9d9;
-    text-align: left;
-}
-.education-block h3 {
-    font-weight: 500;
-    float: left;
-    margin: 0;
-    color: #374054;
-}
-.education-block span {
-    color: #74808a;
-    float: right;
-}
-.education-block h4 {
-    color: #74808a;
-    clear: both;
-    font-weight: 500;
-    margin: 0 0 15px 0;
-}
-.education-block p,
-.education-block ul {
-    margin: 0;
-    color: #74808a;
-    font-size: 0.9em;
-}
-.education-block ul {
-    padding: 0 0 0 15px;
-}
-
 #certification {
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid #dcd9d9;
@@ -468,6 +426,47 @@ footer {
     border: 1px solid #dcd9d9;
     text-align: left;
 }
+#education {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center;
+}
+#education h2 {
+    color: #000000;
+    margin-bottom: 50px;
+}
+.education-block {
+    max-width: 1000px; /* Originally it was 700 but I changed it to 900*/
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid #dcd9d9;
+    text-align: left;
+}
+.education-block h3 {
+    font-weight: 500;
+    float: left;
+    margin: 0;
+    color: #000000;
+}
+.education-block span {
+    color: #000000;
+    float: right;
+}
+.education-block h4 {
+    color: #000000;
+    clear: both;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+.education-block p,
+.education-block ul {
+    margin: 0;
+    color: #000000;
+    font-size: 0.9em;
+}
+.education-block ul {
+    padding: 0 0 0 15px;
+}
 
 #projects {
     padding: 50px 15px;
@@ -475,7 +474,7 @@ footer {
     text-align: center;
 }
 #projects h2 {
-    color: #374054;
+    color: #000000;
     margin-bottom: 50px;
 }
 .project {
@@ -504,11 +503,11 @@ footer {
 .project-info h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #374054;
+    color: #000000;
     margin: 0 0 15px 0;
 }
 .project-info p {
-    color: #74808a;
+    color: #000000;
     margin: 0 0 15px 150px;
     font-size: 0.9em;
     padding-right: 10px;
@@ -529,7 +528,7 @@ footer {
     text-align: center;
 }
 #skills h2 {
-    color: #374054;
+    color: #000000;
     margin-bottom: 50px;
 }
 #skills ul {
@@ -542,7 +541,7 @@ footer {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #374054;
+    color: #000000;
     background: #e4e4ea;
     list-style: none;
     cursor: default;
